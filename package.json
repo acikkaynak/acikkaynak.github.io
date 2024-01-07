@@ -1,0 +1,80 @@
+{
+  "name": "acik.io",
+  "private": true,
+  "packageManager": "npm@10.2.5",
+  "description": "Açık Kaynak İnisiyatifi web sitesi",
+  "keywords": [
+    "açık",
+    "kaynak",
+    "inisiyatifi",
+    "acik.io",
+    "web",
+    "site"
+  ],
+  "version": "1.0.0",
+  "homepage": "https://acik.io",
+  "author": "Eser Ozvataf <eser@acikyazilim.com>",
+  "contributors": [
+    {
+      "name": "Eser Ozvataf",
+      "email": "eser@acikyazilim.com",
+      "url": "https://eser.live/"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acikkaynak/acikkaynak.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acikkaynak/acikkaynak/issues"
+  },
+  "license": "Apache-2.0",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check": "astro check",
+    "preview": "astro preview",
+    "check:type": "tsc --project tsconfig.json --pretty --noEmit",
+    "lint": "biome lint src",
+    "format": "biome format src --write"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.3.4",
+    "@astrojs/markdoc": "^0.8.2",
+    "@astrojs/mdx": "^2.0.3",
+    "@astrojs/react": "^3.0.9",
+    "@astrojs/sitemap": "^3.0.4",
+    "@astrojs/tailwind": "^5.1.0",
+    "@biomejs/biome": "1.4.1",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10",
+    "@types/node": "^20.10.7",
+    "@types/react-dom": "^18.2.18",
+    "@types/react": "^18.2.46",
+    "astro-auto-import": "^0.4.2",
+    "astro": "^4.0.8",
+    "autoprefixer": "^10.4.16",
+    "date-fns-tz": "^2.0.0",
+    "date-fns": "^2.30.0",
+    "github-slugger": "^2.0.0",
+    "gray-matter": "^4.0.3",
+    "marked": "^11.1.1",
+    "postcss": "^8.4.32",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.12.0",
+    "react-lite-youtube-embed": "^2.4.0",
+    "react": "^18.2.0",
+    "remark-collapse": "^0.1.2",
+    "remark-toc": "^9.0.0",
+    "sass": "^1.69.6",
+    "sharp": "^0.33.1",
+    "swiper": "^11.0.5",
+    "tailwind-bootstrap-grid": "^5.1.0",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+  }
+}
