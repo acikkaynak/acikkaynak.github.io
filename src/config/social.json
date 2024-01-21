@@ -1,19 +1,9 @@
 {
-  "main": [
-    {
-      "name": "telegram",
-      "icon": "FaTelegram",
-      "link": "https://t.me/acikkaynak"
-    },
-    {
-      "name": "github",
-      "icon": "FaGithub",
-      "link": "https://www.github.com/acikkaynak"
-    },
-    {
-      "name": "twitter",
-      "icon": "FaTwitter",
-      "link": "https://twitter.com/acik_io"
-    }
-  ]
+	"main": [
+		{
+			"name": "github",
+			"icon": "FaGithub",
+			"link": "https://www.github.com/acikkaynak"
+		}
+	]
 }
