@@ -1,5 +1,5 @@
 {
-  "name": "acik.io",
+  "name": "acikkaynak.github.io",
   "private": true,
   "packageManager": "npm@10.2.5",
   "description": "Açık Kaynak İnisiyatifi web sitesi",
@@ -7,12 +7,12 @@
     "açık",
     "kaynak",
     "inisiyatifi",
-    "acik.io",
+    "acikkaynak",
     "web",
     "site"
   ],
   "version": "1.0.0",
-  "homepage": "https://acik.io",
+  "homepage": "https://acikkaynak.github.io",
   "author": "Eser Ozvataf <eser@acikyazilim.com>",
   "contributors": [
     {
