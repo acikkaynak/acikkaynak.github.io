@@ -3,21 +3,21 @@ import config from "@/config/config.json";
 import ImageMod from "./image-mod.astro";
 
 const { src, srcDarkmode }: { src?: string; srcDarkmode?: string } =
-  Astro.props;
+	Astro.props;
 const {
-  logo,
-  logo_darkmode,
-  logo_width,
-  logo_height,
-  logo_text,
-  title,
+	logo,
+	logo_darkmode,
+	logo_width,
+	logo_height,
+	logo_text,
+	title,
 }: {
-  logo: string;
-  logo_darkmode: string;
-  logo_width: any;
-  logo_height: any;
-  logo_text: string;
-  title: string;
+	logo: string;
+	logo_darkmode: string;
+	logo_width: any;
+	logo_height: any;
+	logo_text: string;
+	title: string;
 } = config.site;
 
 const { theme_switcher }: { theme_switcher: boolean } = config.settings;

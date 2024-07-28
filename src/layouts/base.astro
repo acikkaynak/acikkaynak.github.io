@@ -14,17 +14,17 @@ const sf = theme.fonts.font_family.secondary;
 
 // types for frontmatters
 export interface Props {
-  title?: string;
-  meta_title?: string;
-  description?: string;
-  image?: string;
-  noindex?: boolean;
-  canonical?: string;
+	title?: string;
+	meta_title?: string;
+	description?: string;
+	image?: string;
+	noindex?: boolean;
+	canonical?: string;
 }
 
 // distructure frontmatters
 const { title, meta_title, description, image, noindex, canonical } =
-  Astro.props;
+	Astro.props;
 ---
 
 <!doctype html>

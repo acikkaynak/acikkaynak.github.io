@@ -9,13 +9,13 @@ import { getEntry } from "astro:content";
 import { FaCheck } from "react-icons/fa";
 
 interface Homepage {
-  banner: {
-    title: string;
-    content: string;
-    image: string;
-    button: Button;
-  };
-  features: Feature[];
+	banner: {
+		title: string;
+		content: string;
+		image: string;
+		button: Button;
+	};
+	features: Feature[];
 }
 
 const homepage = await getEntry("homepage", "-index");

@@ -27,7 +27,7 @@ features:
       - Türkiye Açık Kaynak Platformu'na destek verdik
       - Topluluklar, üniversiteler, kamu kurumları ve şirketler ile bir araya geldik
       - Gönüllü Yazılım Vakfı modeli oluşturduk
-      - <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u> ve <u><a href="https://yazilimciagi.com/" target="_blank">Yazılımcı Ağı</a></u>'nın temellerini attık
+      - <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u> ve <u><a href="https://eser.live/" target="_blank">eser.live</a></u>'ın temellerini attık
     button:
       enable: false
       label: "Get Started Now"

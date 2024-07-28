@@ -5,15 +5,15 @@ import config from "@/config/config.json";
 import menu from "@/config/menu.json";
 
 export interface ChildNavigationLink {
-  name: string;
-  url: string;
+	name: string;
+	url: string;
 }
 
 export interface NavigationLink {
-  name: string;
-  url: string;
-  hasChildren?: boolean;
-  children?: ChildNavigationLink[];
+	name: string;
+	url: string;
+	hasChildren?: boolean;
+	children?: ChildNavigationLink[];
 }
 
 const { main }: { main: NavigationLink[] } = menu;

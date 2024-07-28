@@ -1,5 +1,6 @@
 import { marked } from "marked";
-import React, { useEffect, useRef, useState } from "react";
+import type React from "react";
+import { useEffect, useRef, useState } from "react";
 
 marked.use({
 	mangle: false,

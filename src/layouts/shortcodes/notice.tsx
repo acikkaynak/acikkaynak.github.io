@@ -1,5 +1,5 @@
 import { humanize } from "@/lib/utils/text-converter";
-import React from "react";
+import type React from "react";
 
 function Notice({
 	type,
