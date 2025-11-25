@@ -5,8 +5,8 @@
     "base_path": "/",
     "trailing_slash": false,
     "favicon": "/images/favicon.png",
-    "logo": "/images/logo.png",
-    "logo_darkmode": "/images/logo-darkmode.png",
+    "logo": "/images/logo.svg",
+    "logo_darkmode": "/images/logo-darkmode.svg",
     "logo_width": 200,
     "logo_height": 40,
     "logo_text": "açık kaynaklı"
@@ -21,7 +21,7 @@
   },
 
   "params": {
-    "copyright": "© 2024 [Açık Kaynak İnisiyatifi](https://acikkaynak.github.io)"
+    "copyright": "© 2023 [Açık Kaynak İnisiyatifi](https://acikkaynak.github.io)"
   },
 
   "navigation_button": {
@@ -32,7 +32,7 @@
 
   "metadata": {
     "meta_author": "Eser Özvataf",
-    "meta_image": "/images/logo.png",
+    "meta_image": "/images/logo.svg",
     "meta_description": "Açık Kaynak İnisiyatifi"
   }
 }

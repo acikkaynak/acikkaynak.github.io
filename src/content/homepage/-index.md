@@ -5,9 +5,12 @@ banner:
   content: |
     Açık kaynak ekosistemine katkıda bulunmak, insanları açık kaynak geliştirmeye motive etmek, farkındalık oluşturmak ve bu alanda içerik sağlamak için buradaydık.<br />
     <br />
-    Şimdi ise buradaki faaliyetlerimizi durduruyoruz.<br />
+    6 Şubat 2023'te Kahramanmaraş’ta gerçekleşen ve en az 10 ilimizi daha etkileyen deprem felaketi sonucunda yazılım geliştirme sürecine katkıda bulunan birçok insan ile bir araya gelip <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u>'yu oluşturan unsurlar arasında yer aldık.
     <br />
-    2015'de başladığımız maceramız evrimleşerek <em>devam ediyor</em>. Detaylar aşağıda 🔽
+    <br />
+    Böyle bir olgu neticesinde Açık Kaynak İnisiyatifi başlığı altındaki çalışmalarımızın açık topluluğa daha fazla erişmesi amacıyla AYA çatısı altında devam etmesi çok daha yararlı olacağı düşüncesiyle buradaki faaliyetlerimizi durduruyoruz.<br />
+    <br />
+    Kısacası 2015'de başladığımız maceramız evrimleşerek <em>devam edecek</em>. Detaylar aşağıda 🔽
   image: "/images/banner.png"
   button:
     enable: false
@@ -27,10 +30,10 @@ features:
       - Türkiye Açık Kaynak Platformu'na destek verdik
       - Topluluklar, üniversiteler, kamu kurumları ve şirketler ile bir araya geldik
       - Gönüllü Yazılım Vakfı modeli oluşturduk
-      - <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u> ve <u><a href="https://eser.live/" target="_blank">eser.live</a></u>'ın temellerini attık
+      - <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u> ve <u><a href="https://aya.is/" target="_blank">aya.is</a></u>'in temellerini attık
     button:
       enable: false
-      label: "Get Started Now"
+      label: "Ziyaret Et"
       link: "#"
 
   # - title: "Discover the Key Features Of Astro"
