@@ -5,12 +5,15 @@
 .rounded-sm {
   @apply rounded-[4px];
 }
+
 .rounded {
   @apply rounded-[6px];
 }
+
 .rounded-lg {
   @apply rounded-[12px];
 }
+
 .rounded-xl {
   @apply rounded-[16px];
 }

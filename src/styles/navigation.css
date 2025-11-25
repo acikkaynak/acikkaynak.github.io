@@ -1,4 +1,4 @@
-// navbar toggler
+/* navbar toggler */
 input#nav-toggle:checked + label #show-button {
   @apply hidden;
 }
@@ -15,14 +15,15 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply bg-body py-6 dark:bg-darkmode-body;
 }
 
-// navbar items
+/* navbar items */
 .navbar {
   @apply relative flex flex-wrap items-center justify-between;
 }
 
 .navbar-brand {
   @apply text-xl font-semibold text-dark dark:text-darkmode-dark;
-  image {
+
+  & image {
     @apply max-h-full max-w-full;
   }
 }
@@ -30,10 +31,6 @@ input#nav-toggle:checked ~ #nav-menu {
 .navbar-nav {
   @apply text-center lg:text-left;
 }
-
-// .nav-item {
-//   @apply mx-3;
-// }
 
 .nav-link {
   @apply text-dark hover:text-primary dark:text-darkmode-dark dark:hover:text-darkmode-primary block p-3 font-semibold transition lg:px-2 lg:py-3;
@@ -55,25 +52,23 @@ input#nav-toggle:checked ~ #nav-menu {
   @apply block py-1 font-semibold text-dark transition hover:text-primary dark:text-darkmode-text dark:hover:text-darkmode-primary;
 }
 
-//theme-switcher
+/* theme-switcher */
 .theme-switcher {
   @apply inline-flex;
 
-  label {
+  & label {
     @apply relative inline-block h-4 w-6 cursor-pointer rounded-2xl bg-border lg:w-10;
   }
 
-  input {
+  & input {
     @apply absolute opacity-0;
   }
 
-  span {
+  & span {
     @apply absolute -top-1 left-0 flex h-6 w-6 items-center justify-center rounded-full bg-dark transition-all duration-300 dark:bg-white;
   }
 
-  input:checked + label {
-    span {
-      @apply lg:left-4;
-    }
+  & input:checked + label span {
+    @apply lg:left-4;
   }
 }

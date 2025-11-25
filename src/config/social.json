@@ -1,9 +1,9 @@
 {
-	"main": [
-		{
-			"name": "github",
-			"icon": "FaGithub",
-			"link": "https://www.github.com/acikkaynak"
-		}
-	]
+  "main": [
+    {
+      "name": "github",
+      "icon": "FaGithub",
+      "link": "https://www.github.com/acikkaynak"
+    }
+  ]
 }

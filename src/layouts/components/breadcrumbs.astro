@@ -5,21 +5,21 @@ const { className }: { className?: string } = Astro.props;
 
 const paths = Astro.url.pathname.split("/").filter((x) => x);
 const parts = [
-	{
-		label: "Home",
-		href: "/",
-		"aria-label": Astro.url.pathname === "/" ? "page" : undefined,
-	},
+  {
+    label: "Home",
+    href: "/",
+    "aria-label": Astro.url.pathname === "/" ? "page" : undefined,
+  },
 ];
 
 paths.forEach((label: string, i: number) => {
-	const href = `/${paths.slice(0, i + 1).join("/")}`;
-	label !== "page" &&
-		parts.push({
-			label: humanize(label.replace(".html", "").replace(/[-_]/g, " ")) || "",
-			href,
-			"aria-label": Astro.url.pathname === href ? "page" : undefined,
-		});
+  const href = `/${paths.slice(0, i + 1).join("/")}`;
+  label !== "page" &&
+    parts.push({
+      label: humanize(label.replace(".html", "").replace(/[-_]/g, " ")) || "",
+      href,
+      "aria-label": Astro.url.pathname === href ? "page" : undefined,
+    });
 });
 ---
 

@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+@plugin "@tailwindcss/typography";
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/aspect-ratio";
+@plugin "tailwind-bootstrap-grid";
+
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Colors - Light mode */
+  --color-text: #464646;
+  --color-light: #717171;
+  --color-dark: #353535;
+  --color-primary: #152A35;
+  --color-body: #fff;
+  --color-border: #eaeaea;
+  --color-theme-light: #fafafa;
+
+  /* Colors - Dark mode (used with .dark class) */
+  --color-darkmode-text: #B4AFB6;
+  --color-darkmode-light: #B4AFB6;
+  --color-darkmode-dark: #fff;
+  --color-darkmode-primary: #fff;
+  --color-darkmode-body: #181c2c;
+  --color-darkmode-border: #3E3E3E;
+  --color-darkmode-theme-light: #141828;
+
+  /* Typography - Font families */
+  --font-primary: "Heebo", sans-serif;
+  --font-secondary: "Signika", sans-serif;
+
+  /* Typography - Font sizes (base: 18px, scale: 1.25) */
+  --font-size-base: 18px;
+  --font-size-h6: 1rem;        /* 18px */
+  --font-size-h5: 1.25rem;     /* 22.5px */
+  --font-size-h4: 1.563rem;    /* 28.13px */
+  --font-size-h3: 1.953rem;    /* 35.16px */
+  --font-size-h3-sm: 1.563rem; /* 28.13px (h3 * 0.8) */
+  --font-size-h2: 2.441rem;    /* 43.95px */
+  --font-size-h2-sm: 1.953rem; /* 35.16px (h2 * 0.8) */
+  --font-size-h1: 3.052rem;    /* 54.93px */
+  --font-size-h1-sm: 2.441rem; /* 43.95px (h1 * 0.8) */
+
+  /* Screens (for responsive design) */
+  --breakpoint-sm: 540px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 1024px;
+  --breakpoint-xl: 1280px;
+  --breakpoint-2xl: 1536px;
+}
+
+/* Custom utilities for font sizes */
+@utility text-h1 {
+  font-size: var(--font-size-h1);
+}
+
+@utility text-h1-sm {
+  font-size: var(--font-size-h1-sm);
+}
+
+@utility text-h2 {
+  font-size: var(--font-size-h2);
+}
+
+@utility text-h2-sm {
+  font-size: var(--font-size-h2-sm);
+}
+
+@utility text-h3 {
+  font-size: var(--font-size-h3);
+}
+
+@utility text-h3-sm {
+  font-size: var(--font-size-h3-sm);
+}
+
+@utility text-h4 {
+  font-size: var(--font-size-h4);
+}
+
+@utility text-h5 {
+  font-size: var(--font-size-h5);
+}
+
+@utility text-h6 {
+  font-size: var(--font-size-h6);
+}
+
+/* Custom utilities for fonts */
+@utility font-primary {
+  font-family: var(--font-primary);
+}
+
+@utility font-secondary {
+  font-family: var(--font-secondary);
+}
+
+@layer base {
+  @import "./base.css";
+}
+
+@layer components {
+  @import "./components.css";
+  @import "./navigation.css";
+  @import "./buttons.css";
+  @import "./search.css";
+}
+
+@layer utilities {
+  @import "./utilities.css";
+}

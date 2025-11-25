@@ -5,22 +5,22 @@ import { ytEmbed } from "./schema/yt-embed.mdoc";
 
 // ** @type {import('@markdoc/markdoc').Config} */
 export const config = {
-	tags: {
-		callout,
-		link,
-		tweet: tweetEmbed,
-		yt: ytEmbed,
-	},
-	functions: {
-		getCountryEmoji: {
-			transform(parameters: ArrayLike<string>) {
-				const [country] = Object.values<string>(parameters);
-				const countryToEmojiMap: Record<string, string> = {
-					turkey: "🇹🇷",
-				};
+  tags: {
+    callout,
+    link,
+    tweet: tweetEmbed,
+    yt: ytEmbed,
+  },
+  functions: {
+    getCountryEmoji: {
+      transform(parameters: ArrayLike<string>) {
+        const [country] = Object.values<string>(parameters);
+        const countryToEmojiMap: Record<string, string> = {
+          turkey: "🇹🇷",
+        };
 
-				return countryToEmojiMap[country] ?? "🏳";
-			},
-		},
-	},
+        return countryToEmojiMap[country] ?? "🏳";
+      },
+    },
+  },
 };

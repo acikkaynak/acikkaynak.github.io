@@ -5,7 +5,7 @@ import theme from "@/config/theme.json";
 import { plainify } from "@/lib/utils/text-converter";
 import Footer from "@/partials/footer.astro";
 import Header from "@/partials/header.astro";
-import "@/styles/main.scss";
+import "@/styles/main.css";
 import { ViewTransitions } from "astro:transitions";
 
 // font families
@@ -14,21 +14,21 @@ const sf = theme.fonts.font_family.secondary;
 
 // types for frontmatters
 export interface Props {
-	title?: string;
-	meta_title?: string;
-	description?: string;
-	image?: string;
-	noindex?: boolean;
-	canonical?: string;
+  title?: string;
+  meta_title?: string;
+  description?: string;
+  image?: string;
+  noindex?: boolean;
+  canonical?: string;
 }
 
 // distructure frontmatters
 const { title, meta_title, description, image, noindex, canonical } =
-	Astro.props;
+  Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="tr">
   <head>
     <!-- favicon -->
     <link rel="shortcut icon" href={config.site.favicon} />
@@ -106,6 +106,7 @@ const { title, meta_title, description, image, noindex, canonical } =
       )}
     />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content="tr_TR" />
     <meta
       property="og:url"
       content={`${config.site.base_url}/${Astro.url.pathname.replace("/", "")}`}

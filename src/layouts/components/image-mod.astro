@@ -4,28 +4,28 @@ import { Image } from "astro:assets";
 
 // Props interface for the component
 interface Props {
-	src: string;
-	alt: string;
-	width: number;
-	height: number;
-	loading?: "eager" | "lazy" | null | undefined;
-	decoding?: "async" | "auto" | "sync" | null | undefined;
-	format?: "auto" | "avif" | "jpeg" | "png" | "svg" | "webp";
-	class?: string;
-	style?: any;
+  src: string;
+  alt: string;
+  width: number;
+  height: number;
+  loading?: "eager" | "lazy" | null | undefined;
+  decoding?: "async" | "auto" | "sync" | null | undefined;
+  format?: "auto" | "avif" | "jpeg" | "png" | "svg" | "webp";
+  class?: string;
+  style?: string;
 }
 
 // Destructuring Astro.props to get the component's props
 let {
-	src,
-	alt,
-	width,
-	height,
-	loading,
-	decoding,
-	class: className,
-	format,
-	style,
+  src,
+  alt,
+  width,
+  height,
+  loading,
+  decoding,
+  class: className,
+  format,
+  style,
 } = Astro.props;
 
 src = `/public${src}`;
@@ -38,9 +38,9 @@ const isValidPath = Boolean(images[src]);
 
 // Log a warning message in red if the image is not found
 !isValidPath &&
-	console.error(
-		`\x1b[31mImage not found - ${src}.\x1b[0m Make sure the image is in the /public/images folder.`,
-	);
+  console.error(
+    `\x1b[31mImage not found - ${src}.\x1b[0m Make sure the image is in the /public/images folder.`,
+  );
 ---
 
 {

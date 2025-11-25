@@ -3,22 +3,22 @@ import LiteYouTubeEmbed from "react-lite-youtube-embed";
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 
 const Youtube = ({
-	id,
-	title,
-	...rest
+  id,
+  title,
+  ...rest
 }: {
-	id: string;
-	title: string;
-	[key: string]: any;
+  id: string;
+  title: string;
+  [key: string]: string | number | undefined;
 }) => {
-	return (
-		<LiteYouTubeEmbed
-			wrapperClass="yt-lite rounded-lg"
-			id={id}
-			title={title}
-			{...rest}
-		/>
-	);
+  return (
+    <LiteYouTubeEmbed
+      wrapperClass="yt-lite rounded-lg"
+      id={id}
+      title={title}
+      {...rest}
+    />
+  );
 };
 
 export default Youtube;
