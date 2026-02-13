@@ -5,12 +5,12 @@ banner:
   content: |
     Açık kaynak ekosistemine katkıda bulunmak, insanları açık kaynak geliştirmeye motive etmek, farkındalık oluşturmak ve bu alanda içerik sağlamak için buradaydık.<br />
     <br />
-    6 Şubat 2023'te Kahramanmaraş’ta gerçekleşen ve en az 10 ilimizi daha etkileyen deprem felaketi sonucunda yazılım geliştirme sürecine katkıda bulunan birçok insan ile bir araya gelip <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u>'yu oluşturan unsurlar arasında yer aldık.
+    6 Şubat 2023'te Kahramanmaraş’ta gerçekleşen ve en az 10 ilimizi daha etkileyen deprem felaketi sonucunda yazılım geliştirme sürecine katkıda bulunan birçok insan ile bir araya gelip <u><a href="https://acikyazilimagi.com/" target="_blank">Açık Yazılım Ağı (AYA)</a></u>'nı oluşturan unsurlar arasında yer aldık.
     <br />
     <br />
-    Böyle bir olgu neticesinde Açık Kaynak İnisiyatifi başlığı altındaki çalışmalarımızın açık topluluğa daha fazla erişmesi amacıyla AYA çatısı altında devam etmesi çok daha yararlı olacağı düşüncesiyle buradaki faaliyetlerimizi durduruyoruz.<br />
+    Böyle bir olgu neticesinde Açık Kaynak İnisiyatifi başlığı altındaki çalışmalarımızın açık topluluğa daha fazla erişmesi amacıyla AYA çatısı altında devam etmesi çok daha yararlı olacağı düşüncesiyle Açık Kaynak İnisiyatifine ait geliştirdiğimiz projeleri AYA'ya devrediyoruz.<br />
     <br />
-    Kısacası 2015'de başladığımız maceramız evrimleşerek <em>devam edecek</em>. Detaylar aşağıda 🔽
+    Kısacası <u><a href="https://acikkaynak.github.io/2015">2015'de başladığımız maceramız</a></u> evrimleşerek yeni geliştirdiğimiz <u><a href="https://aya.is">aya.is platformu</a></u> olarak yaşamaya <em>devam edecek</em>. Detaylar aşağıda 🔽
   image: "/images/banner.png"
   button:
     enable: false
